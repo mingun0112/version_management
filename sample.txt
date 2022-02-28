@@ -1,2 +1,21 @@
-asdf
-sadfsdf원숭이도 이해할 수 있는 Git 명령어
+cd [경로명]: 레포지토리로 지정할 폴더로 이동
+git init: 해당 폴더 레포지토리로 지정
+git add [파일명]: 커밋 전 공간으로 파일 이동
+- add .: 모든 변경내용 이동
+- add -A: 모든 내용 이동
+- add -p: 선택적 이동
+git commit -m "[커밋 메세지]"
+git remote add origin [원격저장소 주소]
+git push -u origin [브랜치명]
+
+
+git checkout [branch]: 브랜치로 이동
+git checkout -b [branch]: 새브랜치 생성 후 이동
+
+git branch -r: 원격 저장소(remote) 브랜치 상태 확인
+git branch -a: 로컬 저장소 브랜치 상태 확인
+
+git branch --set-upstream-to [origin/main(연동할 브랜치명)]
+
+git fetch [깃허브 주소]
+
