@@ -11,11 +11,14 @@ git push -u origin [브랜치명]
 
 git checkout [branch]: 브랜치로 이동
 git checkout -b [branch]: 새브랜치 생성 후 이동
+git branch -m [브랜치 이름] [바꿀 이름] : 브랜치 이름 바꾸기
+git branch -d [브랜치 이름] : 브랜치 삭제하기
 
 git branch -r: 원격 저장소(remote) 브랜치 상태 확인
 git branch -a: 로컬 저장소 브랜치 상태 확인
 
 git branch --set-upstream-to [origin/main(연동할 브랜치명)]
 
-git fetch [깃허브 주소]
+git pull: 서버에서 최신 코드 받아와 merge
+git fetch: git 서버에서 최신 코드 받아오기
 
